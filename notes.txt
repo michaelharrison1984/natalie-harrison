@@ -1,0 +1,17 @@
+#Design
+
+Full width style may look more modern - different background for each section
+
+Add in some hover colour changes
+
+Use @media queries to change or hide overlapping text
+
+
+#Features
+
+Carousel Slider with Pastwork
+
+make images 1920 x 600px tall
+
+
+Creds section - AutoCAD Revvit Breamm

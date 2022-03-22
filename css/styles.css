@@ -1,0 +1,114 @@
+body {
+  color: #575f6a;
+  background-color: #bfc9d3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ced5df;
+}
+
+
+p {
+  text-align: justify;
+}
+
+/* Containers */
+
+.container-fluid {
+  max-width: 60%;
+}
+
+.img-fluid {
+  min-width: 200px;
+}
+
+/* Images */
+
+.grayscale-image {
+    filter: grayscale(100%);
+}
+
+.color-change-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.5s;
+  padding-bottom: 20px;
+}
+
+.color-change-img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+/* Profile Section */
+#profile-section {
+  background-color: #e2e4e9;
+}
+
+.uclan-img {
+  max-height: 250px;
+}
+
+/* Work Skills Section */
+#work-skills-section {
+  background-color: #F7F7F7;
+}
+
+.creds-icon {
+  max-width: 250px;
+  padding: 30px;
+}
+
+
+@media (max-width: 900px) {
+
+  .container-fluid{
+    max-width: 90%
+  }
+}
+
+
+/* Past Projects Carousel */
+#past-projects {
+  color: #ced5df;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 2.5rem;
+}
+
+.carousel-image {
+  width: 350px;
+}
+
+/* Contact */
+
+#contact {
+  padding: 10% 5%;
+}
+
+/* Footer */
+.footer {
+  background-color: #21374c;
+  color: #ced5df;
+}
+
+.fa-brands {
+
+  padding: 10% 3%;
+}
+
+.grey-anchor {
+    color: #898989;
+}
